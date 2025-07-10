@@ -31,6 +31,7 @@ El cambio de modo se determina por el valor leído desde el pin analógico A0 (L
 ## 📸 Capturas del proyecto
 
 [👉 Ver imagen del circuito](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/03imagen_semaforo.jpg)
+
 [👉 Ver gif del circuito fisico](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/04semaforo.gif)
 
 ---
