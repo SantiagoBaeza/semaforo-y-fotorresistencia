@@ -30,7 +30,8 @@ El cambio de modo se determina por el valor leído desde el pin analógico A0 (L
 
 ## 📸 Capturas del proyecto
 
-> 🖼️ Agregá acá una captura de pantalla del simulador y, si podés, una imagen o gif del circuito físico funcionando.
+[👉 Ver imagen del circuito](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/03imagen_semaforo.jpg)
+[👉 Ver gif del circuito fisico](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/04semaforo.gif)
 
 ---
 
@@ -38,11 +39,11 @@ El cambio de modo se determina por el valor leído desde el pin analógico A0 (L
 
 ### 🔹 Paso 1: Primer algoritmo
 Se desarrolló un código funcional básico para establecer la lógica de encendido de los LEDs según el valor leído del LDR.  
-[👉 Ver código inicial](ruta/a/semaforo_v1.ino)
+[👉 Ver código inicial](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/01semafoto.ino)
 
 ### 🔹 Paso 2: Optimización del flujo
 El código fue refinado para simular de forma más precisa los ciclos de un semáforo real (con parpadeos, tiempos más realistas, y mayor legibilidad).  
-[👉 Ver código optimizado](ruta/a/semaforo_optimizado.ino)
+[👉 Ver código optimizado](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/02semaforo.ino)
 
 ---
 
@@ -62,6 +63,6 @@ Proyecto desarrollado por **Santiago Baeza**, como parte de su portfolio de auto
 
 ## 🧪 Probado en
 
-- [Tinkercad Circuits](https://www.tinkercad.com/)
+- [👉 Usar simulacion en Tinkercad](https://www.tinkercad.com/things/4D78VeTMfbF-semaforo-con-sensor-de-luz)
 - Arduino UNO físico (código cargado por USB desde Arduino IDE)
 
