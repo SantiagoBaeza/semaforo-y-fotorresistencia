@@ -1,11 +1,12 @@
-# 🚦 Semáforo inteligente con sensor de luz (Arduino UNO)
+[⬅️ Volver a "Arduino"](https://github.com/SantiagoBaeza/-Portfolio-de-proyectos-Arduino-Embebidos)
+# Semáforo inteligente con sensor de luz (Arduino UNO)
 
 Este proyecto simula el funcionamiento de un semáforo que adapta su comportamiento **según las condiciones de luz ambiental** (día/noche), usando una **fotorresistencia (LDR)** como entrada analógica.  
 Fue desarrollado y probado con éxito en **Tinkercad** y también montado en un circuito físico.
 
 ---
 
-## 🧰 Componentes utilizados
+## Componentes utilizados
 
 - Arduino UNO
 - 3 LEDs (rojo, amarillo y verde)
@@ -15,7 +16,7 @@ Fue desarrollado y probado con éxito en **Tinkercad** y también montado en un 
 
 ---
 
-## ⚙️ Lógica del proyecto
+## Lógica del proyecto
 
 ### 🌞 Modo Día:
 - El semáforo funciona en ciclo completo (verde → amarillo → rojo) con parpadeos simulando la lógica de tránsito real.
@@ -28,7 +29,7 @@ El cambio de modo se determina por el valor leído desde el pin analógico A0 (L
 
 ---
 
-## 📸 Capturas del proyecto
+## Capturas del proyecto
 
 [👉 Ver imagen del circuito](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/03imagen_semaforo.jpg)
 
@@ -36,7 +37,7 @@ El cambio de modo se determina por el valor leído desde el pin analógico A0 (L
 
 ---
 
-## 🧠 Proceso de desarrollo
+## Proceso de desarrollo
 
 ### 🔹 Paso 1: Primer algoritmo
 Se desarrolló un código funcional básico para establecer la lógica de encendido de los LEDs según el valor leído del LDR.  
@@ -48,17 +49,11 @@ El código fue refinado para simular de forma más precisa los ciclos de un sem�
 
 ---
 
-## 💡 Ideas para futuras versiones
+## Ideas para futuras versiones
 
 - Agregar un botón para simular **paso peatonal** con su propio ciclo de luces.
 - Usar `millis()` en vez de `delay()` para permitir múltiples procesos simultáneos.
 - Incorporar una pantalla LCD para mostrar el estado actual del sistema.
-
----
-
-## ✍️ Autor
-
-Proyecto desarrollado por **Santiago Baeza**, como parte de su portfolio de automatización y sistemas embebidos.
 
 ---
 
