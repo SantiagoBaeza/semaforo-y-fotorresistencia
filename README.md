@@ -41,7 +41,7 @@ El cambio de modo se determina por el valor leído desde el pin analógico A0 (L
 
 ### 🔹 Paso 1: Primer algoritmo
 Se desarrolló un código funcional básico para establecer la lógica de encendido de los LEDs según el valor leído del LDR.  
-[ Ver código inicial](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/01semafoto.ino)
+![ Ver código inicial](https://github.com/SantiagoBaeza/semaforo-y-fotorresistencia/blob/main/01semafoto.ino)
 
 ### 🔹 Paso 2: Optimización del flujo
 El código fue refinado para simular de forma más precisa los ciclos de un semáforo real (con parpadeos, tiempos más realistas, y mayor legibilidad).  
