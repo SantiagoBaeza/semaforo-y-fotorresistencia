@@ -57,7 +57,7 @@ El código fue refinado para simular de forma más precisa los ciclos de un sem�
 
 ---
 
-## 🧪 Probado en
+## Probado en
 
 - [👉 Usar simulacion en Tinkercad](https://www.tinkercad.com/things/4D78VeTMfbF-semaforo-con-sensor-de-luz)
 - Arduino UNO físico (código cargado por USB desde Arduino IDE)
